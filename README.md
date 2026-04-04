@@ -81,7 +81,17 @@ Then reference skills from `.agents/social-media-skills/skills/`.
 2. Customize skills for your specific needs
 3. Clone your fork into your projects
 
-### Option 5: SkillKit (Multi-Agent)
+### Option 5: Claude Code Cowork
+
+Download the skill zip files from the [latest release](https://github.com/blacktwist/social-media-skills/releases/tag/v1.0.0), then add them one by one:
+
+1. Go to **Cowork** > **Customize** > **Skills**
+2. Click **"+"** > **Create skill** > **Upload a skill**
+3. Upload each zip file
+
+There's one zip per skill, so repeat for each skill you want to add.
+
+### Option 6: SkillKit (Multi-Agent)
 
 Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across multiple AI agents (Claude Code, Cursor, Copilot, etc.):
 

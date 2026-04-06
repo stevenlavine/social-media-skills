@@ -2,7 +2,7 @@
 name: thread-writer-sms
 description: "When the user wants to write a multi-part thread for Twitter/X, LinkedIn, or other platforms. Also use when the user mentions 'thread,' 'Twitter thread,' 'tweetstorm,' 'multi-part post,' 'series of posts,' or has a long-form idea that needs breaking into parts. For single posts, see post-writer-sms. For carousels, see carousel-writer-sms."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Thread Writer

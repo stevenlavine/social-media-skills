@@ -46,13 +46,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add blacktwist/social-media-skills
+npx skills add stevenlavine/social-media-skills
 
 # Install specific skills
-npx skills add blacktwist/social-media-skills --skill post-writer-sms hook-writer-sms
+npx skills add stevenlavine/social-media-skills --skill post-writer-sms hook-writer-sms
 
 # List available skills
-npx skills add blacktwist/social-media-skills --list
+npx skills add stevenlavine/social-media-skills --list
 ```
 
 This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
@@ -62,7 +62,7 @@ This automatically installs to your `.agents/skills/` directory (and symlinks in
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/blacktwist/social-media-skills.git
+git clone https://github.com/stevenlavine/social-media-skills.git
 cp -r social-media-skills/skills/* .agents/skills/
 ```
 
@@ -71,7 +71,7 @@ cp -r social-media-skills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/blacktwist/social-media-skills.git .agents/social-media-skills
+git submodule add https://github.com/stevenlavine/social-media-skills.git .agents/social-media-skills
 ```
 
 Then reference skills from `.agents/social-media-skills/skills/`.
@@ -84,7 +84,7 @@ Then reference skills from `.agents/social-media-skills/skills/`.
 
 ### Option 5: Claude Code Cowork
 
-Download the skill zip files from the [latest release](https://github.com/blacktwist/social-media-skills/releases/tag/v1.0.0), then add them one by one:
+Download the skill zip files from the [latest release](https://github.com/stevenlavine/social-media-skills/releases/tag/v1.0.0), then add them one by one:
 
 1. Go to **Cowork** > **Customize** > **Skills**
 2. Click **"+"** > **Create skill** > **Upload a skill**
